@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" sizes="32x32" href="style.css">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%);
+      body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 48);
+    height: 100%;
+}
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    background-color: rgb(51, 51, 92);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(20, 12, 27);
+    color:white;
+}
+.product-info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.equilibrium-img
+{
+    width:80%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(20, 12, 27);
+    
+}
+.title
+{
+    font-family:cambria;
+}
+p
+{
+    color:darkgray;
+    font-size: 20px;
+}
+.divider {
+    border: none;
+    border-top: 1px solid gray; 
+    margin: 10px 0;                 
+    width: 100%;                    
+  }
+.price
+{
+    color: aqua;
+    display: flex;
+    align-items: center;          
+    font-size: 1rem;  
+}
+.compass
+{
+    margin-right: 10px;
+}
+.clock
+{
+    margin-left: 10px;
+}
+.days-left
+{
+   margin-left: 60%;
+   color:darkgray;
+    
+}
+.bottom-img
+{
+    width:5%;
+    height:10%;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.cratedby
+{
+    margin-left: 10px;
+    color:darkgrey;
+}
+.meh
+{
+    margin-left: 10px;
+    color: white;
+} 
+    }
+  </style>
+</head>
+<body>
+<div class="main-container">
+  <img class="equilibrium-img" src="image-equilibrium.jpg" alt="">
+  <div class="product-info">
+    <h1 class="title">
+      Equilibrium #3429
+    </h1>
+   <p class="info">
+    Our Equilibrium collection promotes<br> balance and calm.
+   </p> 
+
+    <h2 class="price">
+      <svg class="compass" width="11" height="18"
+       xmlns="http://www.w3.org/2000/svg">
+       <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" 
+       fill="#00FFF8"/></svg>0.041 ETH <span class="days-left">
+        <svg class="clock" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+           fill="#8BACD9"/></svg>
+         3 days left</span>
+    </h2>
+   
+    <div class="done-by">
+      <hr class="divider">
+      <div class="footer">
+        <img class="bottom-img" src="image-avatar.png" alt="">
+        <p class="cratedby">Creation of <span calss="name">Jules Wyvern</span></p>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+</div>-->
+</body>
+</html>
